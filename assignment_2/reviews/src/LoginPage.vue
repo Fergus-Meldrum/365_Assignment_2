@@ -21,6 +21,9 @@
             <v-flex xs4>
               <v-btn :disabled="!isValid" v-on:click="login(usernameOrEmail, password)">Login</v-btn>
             </v-flex>
+            <v-flex xs4>
+              <v-btn v-on:click="goToSignUp()">Sign Up</v-btn>
+            </v-flex>
             <div v-if="errorFlag" style="color: red;">
               {{error.statusText}}
             </div>
@@ -82,6 +85,9 @@
               this.errorFlag = true;
             });
         }
+      },
+      goToSignUp() {
+        this.$router.push("/signup");
       }
     }
   }

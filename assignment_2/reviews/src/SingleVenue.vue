@@ -119,9 +119,21 @@
 
 
       </v-flex>
+      <v-container row>
       <v-flex lg6>
         <v-card>
           <p>PHOTOS</p>
+          <div v-if="isVenueAdmin" class="container">
+            <div class="large-12 medium-12 small-12 cell">
+              <label>File
+                <input type="file" id="file" ref="file" v-on:change="handleFileUpload()"/>
+              </label>
+              <v-btn v-on:click="submitFile()">Submit</v-btn>
+              <div v-if="picErrorFlag" style="color: red;">
+                {{picError}}
+              </div>
+            </div>
+          </div>
           <v-layout row wrap>
             <v-flex
               v-for="photoName in venuePhotoNames"
@@ -130,10 +142,11 @@
             >
               <v-card flat tile class="d-flex">
                 <v-img
-                  :src="`http://localhost:4941/api/v1/venues/4/photos/` + photoName"
-                  :lazy-src="`http://localhost:4941/api/v1/venues/4/photos/` + photoName"
+                  :src="'http://localhost:4941/api/v1/venues/' + $route.params.id + '/photos/' + photoName"
+                  :lazy-src="'http://localhost:4941/api/v1/venues/' + $route.params.id + '/photos/' + photoName"
                   aspect-ratio="1"
                   class="grey lighten-2"
+                  v-on:click="toogleShowPic(photoName), setShowPic(photoName)"
                 >
                   <template v-slot:placeholder>
                     <v-layout
@@ -151,6 +164,21 @@
           </v-layout>
         </v-card>
       </v-flex>
+      <v-flex v-if="this.selectedPic" xs6>
+        <v-card>
+          <p>Selected Photo</p>
+          <v-img
+            :src="'http://localhost:4941/api/v1/venues/' + $route.params.id + '/photos/' + showPhoto"
+            :lazy-src="'http://localhost:4941/api/v1/venues/' + $route.params.id + '/photos/' + showPhoto"
+            aspect-ratio="1"
+            class="grey lighten-2"
+            v-on:click="toogleShowPic"
+          ></v-img>
+          <v-btn v-on:click="setAsPrimaryPhoto()">Set As Primary Photo</v-btn>
+          <v-btn v-on:click="deletePhoto()">Delete</v-btn>
+        </v-card>
+      </v-flex>
+      </v-container>
     </v-layout>
   </v-container>
 </template>
@@ -190,6 +218,18 @@
         categoryNames: [],
         venueLongitude: "",
         venueLatitude: "",
+
+        picData: "",
+        picDescription: "great time",
+        makePrimary: false,
+        picError: "",
+        picErrorFlag: false,
+
+        showPhoto: "",
+        selectedPic: false,
+
+        validImageTypes: ['image/jpeg', 'image/png'],
+        headers: {},
       }
 
     },
@@ -198,9 +238,79 @@
       this.setVenueFromAll(this.$route.params.id);
       this.setVenueSingle(this.$route.params.id);
       this.getCategories();
+
     },
 
     methods: {
+      deletePhoto(){
+        this.headers = {
+          'X-Authorization': this.$cookies.get('authToken')
+        };
+        this.$http.delete('http://localhost:4941/api/v1/venues/' + this.$route.params.id + '/photos/' + this.showPhoto, {headers: this.headers})
+          .then(function () {
+            this.selectedPic = false;
+            this.picErrorFlag = false;
+            document.location.reload();
+          }, function (error) {
+            this.picError = error;
+            this.picErrorFlag = true;
+          })
+      },
+      setAsPrimaryPhoto() {
+        this.headers = {
+          'X-Authorization': this.$cookies.get('authToken')
+        };
+        this.$http.post('http://localhost:4941/api/v1/venues/' + this.$route.params.id + '/photos/' + this.showPhoto + '/setPrimary', {}, {headers: this.headers})
+          .then(function () {
+            this.selectedPic = false;
+            this.picErrorFlag = false;
+          }, function (error) {
+            this.picError = error;
+            this.picErrorFlag = true;
+          })
+      },
+      toogleShowPic(){
+        this.selectedPic = !this.selectedPic;
+      },
+      setShowPic(photoFilename) {
+        this.showPhoto = photoFilename;
+      },
+      handleFileUpload(){
+        this.picData = this.$refs.file.files[0]
+      },
+
+      submitFile(){
+        if(!(this.validImageTypes.includes(this.picData.type))){
+          this.picError = "cannot have this type of image. .png or .jpeg only";
+          this.picErrorFlag = true;
+        } else if (this.picData.type.size > 20000000){
+          this.picError = "image too big, must be less than 20MB";
+          this.picErrorFlag = true;
+        }
+        else {
+          this.picErrorFlag = false;
+          let formData = new FormData();
+          formData.append('photo', this.picData);
+          formData.append('description', this.picDescription);
+          formData.append('makePrimary', this.makePrimary);
+          let headers = {
+            'Content-Type': 'multipart/form-data',
+            'X-Authorization': this.$cookies.get('authToken')
+          };
+
+          this.$http.post('http://localhost:4941/api/v1/venues/' + this.$route.params.id + '/photos',
+            formData, {headers: headers})
+            .then(function () {
+              document.location.reload();
+            }, function (error) {
+              this.error = error;
+              this.errorFlag = true;
+            });
+        }
+
+      },
+
+
       getCategories() {
         this.$http.get('http://localhost:4941/api/v1/categories')
           .then(function (response) {
@@ -212,7 +322,8 @@
             this.error = error;
             this.errorFlag = true;
           });
-      },
+      }
+      ,
 
       setVenueFromAll(id) {
         this.$http.get('http://localhost:4941/api/v1/venues?categoryId=' + this.$route.params.categoryId)
@@ -233,7 +344,8 @@
             this.error = error;
             this.errorFlag = true;
           });
-      },
+      }
+      ,
       setVenueSingle(id) {
         this.$http.get('http://localhost:4941/api/v1/venues/' + id)
           .then(function (response) {
@@ -258,16 +370,19 @@
             this.error = error;
             this.errorFlag = true;
           });
-      },
+      }
+      ,
       addVenueReview() {
         this.$router.push({
           name: 'addReview',
           params: {id: this.$route.params.id, categoryId: this.$route.params.categoryId}
         })
-      },
+      }
+      ,
       viewVenueReviews() {
         this.$router.push({name: 'venueReviews', params: {id: this.$route.params.id}})
-      },
+      }
+      ,
       editVenue(venueName, venueCategoryName, venueShortDescription, venueLongDescription, venueCity, venueAddress,
                 venueLongitude, venueLatitude) {
         if (this.$refs.form.validate()) {
@@ -295,14 +410,16 @@
               this.errorFlag = true;
             });
         }
-      },
+      }
+      ,
       getCategoryId(categoryName) {
         for (var i = 0; i < this.allCategories.length; i++) {
           if (categoryName === this.allCategories[i].categoryName) {
             return this.allCategories[i].categoryId;
           }
         }
-      },
+      }
+      ,
     },
     computed: {
       isVenueAdmin() {

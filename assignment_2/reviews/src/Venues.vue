@@ -114,7 +114,7 @@
                   <td class="text-xs-right">{{ props.item.modeCostRating }}</td>
                   <td class="text-xs-right" v-if="navSupported">{{ props.item.distance}}</td>
                   <img v-if="hasProfilePic(props.item.primaryPhoto)"
-                       :src="`http://localhost:4941/api/v1/venues/4/photos/` + props.item.primaryPhoto" width="100"
+                       :src="'http://localhost:4941/api/v1/venues/' + props.item.venueId + '/photos/' + props.item.primaryPhoto" width="100"
                        height="100">
                   <img v-else src="./assets/default.png" width="150" height="150">
                 </template>

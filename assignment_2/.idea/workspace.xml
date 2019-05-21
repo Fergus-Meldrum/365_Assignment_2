@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079e44b5-e85a-4a0c-9489-ba46caefb920" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reviews/src/CreateVenue.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/src/LoginPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/src/Navigation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/src/SignUpPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/src/SingleUser.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/src/SingleVenueInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/src/VenueEdit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/src/VenueReviews.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/src/addReview.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/src/assets/default.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment2-server" beforeDir="false" afterPath="$PROJECT_DIR$/assignment2-server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/src/CityForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/src/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/src/LoginPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/src/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/src/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/src/SingleUser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/src/SingleUser.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/src/SingleVenue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/src/SingleVenue.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reviews/src/Venues.vue" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/src/Venues.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/src/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,95 +19,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5536537">
+    <splitter split-orientation="horizontal" split-proportion="0.3300678">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/reviews/src/Venues.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="232" column="8" lean-forward="true" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="8" />
+                <state relative-caret-position="249">
+                  <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reviews/src/CreateVenue.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
-                  <caret line="152" selection-start-line="152" selection-end-line="158" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assignment2-server/app/resources/create_database.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="655">
-                  <caret line="45" column="13" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reviews/src/Home.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reviews/src/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="676">
-                  <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#0#21#0" expanded="true" />
-                    <element signature="e#223#251#0" expanded="true" />
-                    <element signature="e#532#571#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reviews/src/VenueEdit.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reviews/src/SignUpPage.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1022">
-                  <caret line="130" column="12" lean-forward="true" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reviews/src/LoginPage.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="840">
-                  <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/reviews/src/Navigation.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="37" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="37" />
+                <state relative-caret-position="348">
+                  <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -133,8 +43,21 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/reviews/src/SingleVenue.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="161" column="51" lean-forward="true" selection-start-line="161" selection-start-column="4" selection-end-line="161" selection-end-column="51" />
+                <state relative-caret-position="249">
+                  <caret line="230" column="21" lean-forward="true" selection-start-line="230" selection-end-line="231" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/reviews/src/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-480">
+                  <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                    <element signature="e#223#251#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -143,7 +66,16 @@
             <entry file="file://$PROJECT_DIR$/reviews/src/App.vue">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
-                  <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="29" />
+                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/reviews/src/SignUpPage.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="294">
+                  <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -152,7 +84,16 @@
             <entry file="file://$PROJECT_DIR$/reviews/src/SingleUser.vue">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="360">
-                  <caret line="24" column="71" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="71" />
+                  <caret line="53" column="71" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="71" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/reviews/src/LoginPage.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40">
+                  <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
                 </state>
               </provider>
             </entry>
@@ -167,29 +108,63 @@
             </entry>
           </file>
         </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/reviews/src/SingleUser.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/reviews/src/SingleVenueInfo.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="633">
+                  <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>4941</find>
-      <find>valid</find>
       <find>error</find>
-      <find>isValid</find>
-      <find>cate</find>
-      <find>router</find>
-      <find>venueAdmin</find>
-      <find>venues</find>
-      <find>hasProfilePic</find>
-      <find>queryParams</find>
-      <find>computed</find>
-      <find>/venues</find>
-      <find>v-for</find>
-      <find>venueDateAdded</find>
+      <find>click</find>
       <find>v-if</find>
-      <find>disable</find>
-      <find>disab</find>
-      <find>venueAdminId</find>
+      <find>headers</find>
+      <find>showPhoto</find>
+      <find>showPic</find>
+      <find>photoName</find>
+      <find>template</find>
+      <find>isValid</find>
+      <find>givenName</find>
+      <find>familyName</find>
+      <find>patch</find>
+      <find>add re</find>
+      <find>dia</find>
+      <find>pass</find>
+      <find>dis</find>
+      <find>doc</find>
+      <find>log out</find>
+      <find>Password</find>
+      <find>mount</find>
+      <find>familyNameValid</find>
+      <find>set</find>
+      <find>src</find>
+      <find>givenNameValid</find>
+      <find>picErrorFlag</find>
+      <find>handleFileUpload</find>
+      <find>picData</find>
+      <find>docu</find>
+      <find>submitFile</find>
+      <find>dele</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,25 +180,26 @@
         <option value="$PROJECT_DIR$/reviews/src/addReview.vue" />
         <option value="$PROJECT_DIR$/reviews/src/ViewUsers.vue" />
         <option value="$PROJECT_DIR$/reviews/src/SingleVenueInfo.vue" />
-        <option value="$PROJECT_DIR$/reviews/src/SingleUser.vue" />
-        <option value="$PROJECT_DIR$/reviews/src/LoginPage.vue" />
         <option value="$PROJECT_DIR$/reviews/src/CreateVenue.vue" />
-        <option value="$PROJECT_DIR$/reviews/src/SignUpPage.vue" />
         <option value="$PROJECT_DIR$/reviews/src/VenueReviews.vue" />
         <option value="$PROJECT_DIR$/reviews/src/main.js" />
         <option value="$PROJECT_DIR$/reviews/src/VenueEdit.vue" />
-        <option value="$PROJECT_DIR$/reviews/src/SingleVenue.vue" />
         <option value="$PROJECT_DIR$/reviews/src/App.vue" />
-        <option value="$PROJECT_DIR$/reviews/src/Navigation.vue" />
+        <option value="$PROJECT_DIR$/reviews/src/something.vue" />
         <option value="$PROJECT_DIR$/reviews/src/Venues.vue" />
+        <option value="$PROJECT_DIR$/reviews/src/SignUpPage.vue" />
+        <option value="$PROJECT_DIR$/reviews/src/Navigation.vue" />
+        <option value="$PROJECT_DIR$/reviews/src/LoginPage.vue" />
+        <option value="$PROJECT_DIR$/reviews/src/SingleVenue.vue" />
+        <option value="$PROJECT_DIR$/reviews/src/SingleUser.vue" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="y" value="-1" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -231,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +218,19 @@
               <item name="assignment_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment_2" type="462c0819:PsiDirectoryNode" />
               <item name="assignment2-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment_2" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment_2" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="assignment_2" type="b2602c69:ProjectViewProjectNode" />
@@ -259,6 +247,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,6 +258,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -320,20 +310,21 @@
       <workItem from="1558322365529" duration="5852000" />
       <workItem from="1558343977623" duration="3221000" />
       <workItem from="1558404141843" duration="2781000" />
-      <workItem from="1558411946943" duration="12764000" />
+      <workItem from="1558411946943" duration="12877000" />
+      <workItem from="1558430137435" duration="30575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111505000" />
+    <option name="totallyTimeSpent" value="142193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="-1" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.199262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19915509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -343,7 +334,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25627616" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2559395" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -508,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5168" column="4" selection-start-line="5168" selection-start-column="4" selection-end-line="5168" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment2-server/app/routes/venues.routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -529,17 +513,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/src/CreateVenue.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="152" selection-start-line="152" selection-end-line="158" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment2-server/app/resources/create_database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/reviews/src/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/src/SingleUser.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -550,29 +541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/src/main.js">
+    <entry file="file://$PROJECT_DIR$/reviews/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#223#251#0" expanded="true" />
-            <element signature="e#532#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment2-server/app/resources/create_database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/src/SingleVenueInfo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -583,52 +555,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/src/SingleVenue.vue">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="161" column="51" lean-forward="true" selection-start-line="161" selection-start-column="4" selection-end-line="161" selection-end-column="51" />
+        <state relative-caret-position="221">
+          <caret line="4369" column="4" selection-start-line="4369" selection-start-column="4" selection-end-line="4369" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/reviews/src/something.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="354">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/src/LoginPage.vue">
+    <entry file="file://$PROJECT_DIR$/reviews/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/src/CreateVenue.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="152" selection-start-line="152" selection-end-line="158" selection-end-column="10" />
+        <state relative-caret-position="-480">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#223#251#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/src/SignUpPage.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="130" column="12" lean-forward="true" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="34" />
+        <state relative-caret-position="294">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reviews/src/Navigation.vue">
+    <entry file="file://$PROJECT_DIR$/reviews/src/LoginPage.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="40">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reviews/src/Venues.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="232" column="8" lean-forward="true" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="8" />
+        <state relative-caret-position="249">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/src/SingleVenueInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment2-server/app/models/users.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment2-server/app/models/photos.model.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/src/SingleVenue.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="230" column="21" lean-forward="true" selection-start-line="230" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/src/SingleUser.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="53" column="71" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reviews/src/Navigation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
         </state>
       </provider>
     </entry>

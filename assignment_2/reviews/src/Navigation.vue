@@ -18,12 +18,16 @@
           loggedIn: true
         }
       },
+     mounted: function () {
+        this.checkLoggedIn();
+     },
      methods: {
        logout() {
          this.loggedIn = false;
          this.$cookies.remove("authToken");
          this.$cookies.remove("userId");
          this.$cookies.remove("password");
+         document.location.reload();
        },
        goToLogin() {
          this.$router.push('/login');
